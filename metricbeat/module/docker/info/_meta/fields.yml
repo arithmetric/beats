@@ -26,6 +26,17 @@
           type: long
           description: >
             Total number of existing containers.
+
+    - name: driver
+      type: keyword
+      description: >
+        Storage driver in use.
+
+    - name: driverStatus
+      type: group
+      description: >
+        Storage driver status information. Available fields depend on storage driver.
+
     - name: id
       type: keyword
       description: >

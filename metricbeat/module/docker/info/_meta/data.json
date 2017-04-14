@@ -12,6 +12,22 @@
                 "stopped": 1,
                 "total": 12
             },
+            "driver": "devicemapper",
+            "driverStatus": {
+              "backingFilesystem": "xfs",
+              "baseDeviceSize": 10740000000,
+              "dataFile": "",
+              "dataSpaceAvailable": 44810000000,
+              "dataSpaceTotal": 51000000000,
+              "dataSpaceUsed": 6192000000,
+              "metadataFile": "",
+              "metadataSpaceAvailable": 531799999,
+              "metadataSpaceTotal": 532700000,
+              "metadataSpaceUsed": 884700,
+              "poolBlocksize": 524300,
+              "poolName": "docker-thinpool",
+              "thinPoolMinimumFreeSpace": 5100000000
+            },
             "id": "CRDS:UHQ6:W3IR:GROZ:IUG3:VS2E:4QJJ:FJWG:PRQ4:R25R:VNNP:NE62",
             "images": 119
         }
